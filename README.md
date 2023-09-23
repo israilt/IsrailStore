@@ -56,15 +56,15 @@ Selamat Datang!!!
                 <input type="text" id="name" name="name" required>
             </div>
             <div class="form-group">
-                <label for="amount">Jumlah Pembayaran</label>
+                <label for="amount">Nominal</label>
                 <input type="number" id="amount" name="amount" required>
             </div>
             <div class="form-group">
                 <label for="payment-method">Metode Pembayaran</label>
                 <select id="payment-method" name="payment-method" required>
-                    <option value="bank-transfer">Transfer Bank</option>
+                    <option value="minjem dulu">Minjem Dulu</option>
                     <option value="e-wallet">E-Wallet</option>
-                    <option value="credit-card">Kartu Kredit</option>
+                    <option value="tunai">Tunai</option>
                 </select>
             </div>
             <div class="form-group">
