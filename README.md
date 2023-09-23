@@ -1,6 +1,6 @@
 # IsrailStore
-Selamat Datang!!! 
 
+Selamat Datang!!! 
 <html>
 <head>
     <title>Form Pembayaran</title>
