@@ -64,7 +64,7 @@ Selamat Datang!!!
                 <select id="payment-method" name="payment-method" required>
                     <option value="minjem dulu">Minjem Dulu</option>
                     <option value="e-wallet">E-Wallet</option>
-                    <option value="tunai">Tunai</option>
+                    <option value="cod">COD</option>
                 </select>
             </div>
             <div class="form-group">
