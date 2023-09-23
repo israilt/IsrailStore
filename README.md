@@ -50,7 +50,7 @@ Selamat Datang!!!
 </head>
 <body>
     <div class="container">
-        <form action="https://api.whatsapp.com/send?phone=082245184223" method="get">
+        <form action="https://wa.me/6282245184223" method="get">
             <div class="form-group">
                 <label for="name">Nama</label>
                 <input type="text" id="name" name="name" required>
