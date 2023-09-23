@@ -1,6 +1,7 @@
 # IsrailStore
 
 Selamat Datang!!! 
+
 <html>
 <head>
     <title>Form Pembayaran</title>
@@ -37,9 +38,10 @@ Selamat Datang!!!
         }
 
         .form-group button {
-            background-color: #04AA6D;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
             color: white;
-            padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -48,29 +50,25 @@ Selamat Datang!!!
 </head>
 <body>
     <div class="container">
-        <h2>Form Pembayaran</h2>
-        <form action="https://wa.me/qr/6HFHY6OW4WFRL1" method="POST">
+        <form action="https://api.whatsapp.com/send" method="get">
             <div class="form-group">
-                <label for="nama">Nama</label>
-                <input type="text" id="nama" name="nama" required>
+                <label for="name">Nama</label>
+                <input type="text" id="name" name="name" required>
             </div>
             <div class="form-group">
-                <label for="nomor">Nomor</label>
-                <input type="nomor" id="nomor" name="nomor" required>
+                <label for="amount">Jumlah Pembayaran</label>
+                <input type="number" id="amount" name="amount" required>
             </div>
             <div class="form-group">
-                <label for="jumlah">Nominal</label>
-                <input type="number" id="jumlah" name="jumlah" required>
-            </div>
-            <div class="form-group">
-                <label for="metode">Metode Pembayaran</label>
-                <select id="metode" name="metode" required>
-                    <option value="transfer">Minjem</option>
-                    <option value="tunai">Tunai</option>
+                <label for="payment-method">Metode Pembayaran</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="bank-transfer">Transfer Bank</option>
+                    <option value="e-wallet">E-Wallet</option>
+                    <option value="credit-card">Kartu Kredit</option>
                 </select>
             </div>
             <div class="form-group">
-                <button type="submit">Kirim Pembayaran</button>
+                <button type="submit">Bayar via WhatsApp</button>
             </div>
         </form>
     </div>
