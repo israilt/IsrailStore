@@ -68,6 +68,7 @@ Selamat Datang!!!
                 </select>
             </div>
             <div class="form-group">
+                <input type="hidden" name="phone" value="082245184223">
                 <button type="submit">Kirim Pembayaran</button>
             </div>
         </form>
