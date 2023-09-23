@@ -49,7 +49,7 @@ Selamat Datang!!!
 <body>
     <div class="container">
         <h2>Form Pembayaran</h2>
-        <form action="https://api.whatsapp.com/send?phone=082245184223" method="POST">
+        <form action="https://wa.me/qr/6HFHY6OW4WFRL1" method="POST">
             <div class="form-group">
                 <label for="nama">Nama</label>
                 <input type="text" id="nama" name="nama" required>
