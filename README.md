@@ -1,8 +1,6 @@
 # IsrailStore
 Selamat Datang!!! 
 
-
-<!DOCTYPE html>
 <html>
 <head>
     <title>Form Pembayaran</title>
